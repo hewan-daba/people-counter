@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> PEOPLE COUNTER</h1>
+    <div id="content">
+        <div id="description">
+            <h2 id="des-title">Smart Passenger Counting</h2>
+            <p id="des-p">Simplify passenger tracking, maintain accurate entry records, and improve daily station operations with quick counting and easy resets.</p>
+        </div>
+        <div id="counter-l">
+            <h2>People Entered</h2>
+            <h3 id="counter">0</h3>
+            <div class="tocenter">
+                <button id= "increment-btn" onclick="increment()">INCREMENT</button>
+                <button id= "save-btn" onclick="save()">SAVE</button>
+            </div>
+            <p id="savedCounter">People Entered: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
