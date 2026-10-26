@@ -97,3 +97,89 @@ button{
     font-size: 20px;
     line-height: 1.3;
 }
+@media ( max-width:760px){
+    * {
+        box-sizing: border-box;
+    }
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30%;
+    }
+    h1{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    #counter-l{
+        position: static;
+        /* top: 25%; */
+        /* right: 0; */
+        /* margin-top: 0; */
+        align-self: center;
+        width: 80%;
+        /* height: 60vh; */
+    }
+    h2{
+        /* margin-top: 100px; */
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    h3{
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .tocenter{
+        gap: 0;
+    }
+    button{
+        width: 150px;
+        /* margin: 20px; */
+        padding: 15px 25px 15px;
+    }
+    #increment-btn{
+        color: white;
+        background-color: rgb(83 51 22);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #save-btn{
+        color: white;
+        background-color: rgb(16, 61, 99);
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #savedCounter{
+        margin: 0 10px;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    #description{
+        /* margin-left: 11%; */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-self: center;
+        box-sizing: border-box;
+    }
+    #des-title{
+        color: #ebe8e8;
+    }
+    #des-p{
+        padding-left: 20px;
+        /* margin-left: 15px; */
+        color: #ebe8e8;
+        font-size: 23px;
+        line-height: 1.3;
+    }
+
+}
